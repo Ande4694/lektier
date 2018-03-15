@@ -10,7 +10,7 @@ public class Array3{
       input.next();
       System.out.println("Det intastet var ikke en Int, prøv igen");
       }
-     
+  
    //// næste input bliver til størrelseAfArray
    int størrelseAfArray = input.nextInt();
    /// Der oprettes et array, hvor størrelsen er hvad vi lige har tastet input til
