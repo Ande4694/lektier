@@ -6,7 +6,7 @@ public class Array3{
    System.out.println("Hvor stort skal dette array vaere?");
       
       /// anti jarl
-      while (!input.hasNextInt()) {
+      while (!input.hasNextInt()){
       input.next();
       System.out.println("Det intastet var ikke en Int, prøv igen");
       }
