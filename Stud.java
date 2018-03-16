@@ -5,8 +5,6 @@ public class Stud{
    private int age;
    private String grade;
    
-   String names[]={"Henrik","Torben","Chris","Thomas","Kim","Frederik","Klaus","Peter","Tobias","Rasmus"};
-   
 public Stud(){
    name = setRandomName();
    age = setRandomAge();
@@ -14,7 +12,7 @@ public Stud(){
 }
 
 public String setRandomName(){
-   String names[]={"Henrik","Torben","Chris","Thomas","Kim","Frederik","Klaus","Peter","Tobias","Rasmus"};
+   String names[]={"Henrik","Torben","Chris","Thomas","Kim","Frederik","Klaus","Peter","Tobias","Rasmus","Jarl","Joakim","Astrid","Johan","Anders","Andreas","Thorkild","Birthe","Bente","Bertram","Martin","Victor","Steffan","Alexander","Michelle","Brian","Ida","Marie","Anne","Rikke","Laura","Stine"};
    this.name=names[new Random().nextInt(names.length)];
    return name;
 }
@@ -30,9 +28,9 @@ public int setRandomAge(){
 }
 public String toString(){
 String info = "";
-   info = info + ("Student name: "+ name+"\n");
-   info = info + ("Student age: "+ age+"\n");
-   info = info + ("Student grade: "+ grade+"\n");
+   info = info + ("Student name: \t\t"+ name+".\n");
+   info = info + ("Student age: \t\t"+ age+".\n");
+   info = info + ("Student grade: \t"+ grade+".\n");
    return info;
 }
 }

@@ -22,7 +22,7 @@ public class Array2{
       
       // udskrift på hver sin linie
       for(int i = 0; i<ulige.length; i++){
-      System.out.println("indeks "+i+" er: "+ulige[i]);
+      System.out.println("indeks "+i+" er: \t"+ulige[i]);
       }
    }
 }

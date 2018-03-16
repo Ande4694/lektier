@@ -43,11 +43,11 @@ public class Array3{
       min = arrayet[i];
       }
    }
-   System.out.println("De intastet tal er "+Arrays.toString(arrayet));
-   System.out.println("Den sammenlagte sum er: "+sum);
-   System.out.println("Gennemsnittet er: "+sum/størrelseAfArray);
-   System.out.println("Det hoejeste tal er: "+max);
-   System.out.println("Det leveste tal er: "+min);
+   System.out.println("De intastet tal er: \t\t\t"+Arrays.toString(arrayet));
+   System.out.println("Den sammenlagte sum er: \t"+sum);
+   System.out.println("Gennemsnittet er: \t\t\t"+sum/størrelseAfArray);
+   System.out.println("Det hoejeste tal er: \t\t"+max);
+   System.out.println("Det leveste tal er: \t\t\t"+min);
    
 
    

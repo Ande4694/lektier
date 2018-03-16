@@ -1,26 +1,8 @@
 import java.util.*;
 public  class Klasse{
    public static void main(String[]args){
-   /*
-      /// proper 10 af class "Student" i et array, kalder det "stud"
-      Student[] stud = new Student[3]; 
-      /// test af hvad det indeholder     
-      System.out.println(Arrays.toString(stud));
-      /// instanciere hvert indeks af "stud"
-      stud[0] = new Student("Torben",8,12);
-      stud[1] = new Student("Iben",9,13);
-      // stud[2] bliver instancieret med en constructor
-      stud[2] = new Student();
-      /// test om det virker
-      System.out.println(Arrays.toString(stud));
-      
-      
-      /// setter name, grade og age på stud[2], væk fra constructor
-      stud[2].setStudent("BERTRAM",0,18);
-      System.out.println(stud[2]);
-     */
-      
-      /// nyt array "students". indeks er 15 stort.
+
+      /// nyt array "students". indeks er 15 stort.. det kan nu indeholde objekter "Stud".
       Stud[] students = new Stud[15];
       /// hvert indeks er nu blankt "null"
       
