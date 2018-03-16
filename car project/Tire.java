@@ -6,10 +6,10 @@ public class Tire{
       this.brand = brand;
       this.tommer = tommer;
    }
-   
    public void print(){
       System.out.println("Tire:");
       System.out.println("Tire brand: "+brand);
-      System.out.println("Tire inches: "+tommer);
+      System.out.println("Tire inches: "+tommer+" tommer");
+   }
 
 }

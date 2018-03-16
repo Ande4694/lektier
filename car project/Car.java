@@ -3,6 +3,7 @@ public class Car{
    private String model;
    private int year;
    private Engine motor;
+   private Tire[] dæk;
    
    public Car(){
       String brand = "Toyota";
@@ -17,11 +18,12 @@ public class Car{
       motor = new Engine(engineBrand, engineCubic, engineHk);     
    }
    */
-   public Car(String brand, String model, int year, Engine motor){
+   public Car(String brand, String model, int year, Engine motor, Tire[] dæk){
       this.brand = brand;
       this.model = model;
       this.year = year;
       this.motor = motor;     
+      this.dæk = dæk;
    }
    
    public void print(){
@@ -30,5 +32,10 @@ public class Car{
       System.out.println("Car model: "+model);
       System.out.println("Car year: "+year);
       motor.print();
+      for (int i = 0; i<dæk.length; i++){
+         dæk[i].print();
+      }
+      //dæk.print();
+      //System.out.println(Arrays.toString(dæk));
    }
 }
